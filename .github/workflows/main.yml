@@ -70,11 +70,11 @@ jobs:
       - name: Build Docker images
       - run: docker build . --tag goimagetest:$(date +%s)
 
-      # Deploy to Docker registry
-      - name: Deploy to Docker registry
-        uses: docker/build-push-action@v1
-        with:
-          username: ${{ secrets.DOCKER_USERNAME }}
-          password: ${{ secrets.DOCKER_PASSWORD }}
-          repository: chiquang98/gosimple
-          tag_with_ref: true
+#      # Deploy to Docker registry
+#      - name: Deploy to Docker registry
+#        uses: docker/build-push-action@v1
+#        with:
+#          username: ${{ secrets.DOCKER_USERNAME }}
+#          password: ${{ secrets.DOCKER_PASSWORD }}
+#          repository: chiquang98/gosimple
+#          tag_with_ref: true
