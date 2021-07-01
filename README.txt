@@ -1,1 +1,1 @@
-[![CICD](https://github.com/ChiQuang98/JenkinTest/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/ChiQuang98/JenkinTest/actions/workflows/main.yml)
+[![CICD](https://github.com/ChiQuang98/JenkinTest/actions/workflows/main.yml/badge.svg)](https://github.com/ChiQuang98/JenkinTest/actions/workflows/main.yml)
